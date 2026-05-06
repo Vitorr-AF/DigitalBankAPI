@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ProjetoBanco.API.Models
 {
@@ -12,6 +13,7 @@ namespace ProjetoBanco.API.Models
         public string Nome { get; set; }
         [Required]
         public int AgenciaId { get; set; }
+        [JsonIgnore]
         public Agencia Agencia { get; set; }
         public ICollection<Contratacao> Contratacoes { get; set; } = new List<Contratacao>();
     }
@@ -73,6 +75,7 @@ namespace ProjetoBanco.API.Models
         public int Id { get; set; }
         [Required]
         public int ClienteId { get; set; }
+        [JsonIgnore]
         public Cliente Cliente { get; set; }
         [Required]
         public int ProdutoId { get; set; }
