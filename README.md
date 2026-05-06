@@ -61,6 +61,8 @@ A API expõe os seguintes *endpoints*:
         }
         ```
     *   **Respostas**: `201 Created` (sucesso), `400 Bad Request` (CPF já cadastrado ou agência não encontrada).
+   <img width="1415" height="709" alt="Captura de tela 2026-05-06 134141" src="https://github.com/user-attachments/assets/6a06890a-543d-411b-94bc-6f50d5221d3d" />
+
 
 *   `POST /api/clientes/pj`
     *   **Descrição**: Cadastra uma nova Pessoa Jurídica.
@@ -91,6 +93,8 @@ A API expõe os seguintes *endpoints*:
         }
         ```
     *   **Respostas**: `201 Created` (sucesso).
+   <img width="1447" height="802" alt="Captura de tela 2026-05-06 134654" src="https://github.com/user-attachments/assets/623d44cb-e28b-47f3-a9ad-4aae46767281" />
+
 
 *   `GET /api/agencias/{id}`
     *   **Descrição**: Busca uma agência pelo seu ID.
@@ -108,6 +112,8 @@ A API expõe os seguintes *endpoints*:
         }
         ```
     *   **Respostas**: `202 Accepted` (solicitação aceita para processamento), `404 Not Found` (cliente não encontrado).
+   <img width="1459" height="753" alt="Captura de tela 2026-05-06 134745" src="https://github.com/user-attachments/assets/ffc1ef11-810b-4b1f-8c3c-5700be076c8a" />
+
 
 *   `GET /api/contratacoes/{id}`
     *   **Descrição**: Consulta o status de uma contratação pelo seu ID.
