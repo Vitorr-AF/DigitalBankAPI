@@ -16,7 +16,7 @@ Este projeto consiste em uma **Web API** desenvolvida em **ASP.NET Core 8.0**, a
 *   **Consulta de Status**: Permite verificar o status das contratações realizadas.
 
 ## Diagrama do draw.io
-![Diagrama de Classes UML](https://github.com/Vitorr-AF/DigitalBankAPI/blob/master/DiagramaCP2.drawio)
+![Diagrama de Classes UML](https://github.com/Vitorr-AF/DigitalBankAPI/blob/master/DiagramaCP2.drawio.png)
 
 ## Arquitetura e Tecnologias
 
