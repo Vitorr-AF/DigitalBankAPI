@@ -15,6 +15,9 @@ Este projeto consiste em uma **Web API** desenvolvida em **ASP.NET Core 8.0**, a
 *   **Contratação de Produtos**: Habilita a solicitação de contratação de produtos bancários, com processamento assíncrono via RabbitMQ.
 *   **Consulta de Status**: Permite verificar o status das contratações realizadas.
 
+## Diagrama do draw.io
+![Diagrama de Classes UML](https://github.com/Vitorr-AF/DigitalBankAPI/DiagramaCP2.drawio)
+
 ## Arquitetura e Tecnologias
 
 A arquitetura do projeto segue os princípios de uma API RESTful, utilizando as seguintes tecnologias e *frameworks*:
@@ -120,7 +123,7 @@ Para colocar o projeto em funcionamento, siga os passos abaixo:
 
 2.  **Clonar o Repositório**:
     ```bash
-    git clone <URL_DO_REPOSITORIO>
+    git clone https://github.com/Vitorr-AF/DigitalBankAPI/
     cd ProjetoBanco/ProjetoBanco.API
     ```
 
@@ -141,7 +144,7 @@ Para colocar o projeto em funcionamento, siga os passos abaixo:
 
 ## Testes
 
-Para executar os testes do projeto (se houver):
+Para executar os testes do projeto:
 
 ```bash
 dotnet test
@@ -149,10 +152,4 @@ dotnet test
 
 **Nota**: Os fluxos críticos mencionados na atividade foram considerados na implementação dos *controllers*, incluindo validações de duplicidade de CPF/CNPJ e existência de entidades (clientes, agências) para garantir a integridade dos dados e o comportamento esperado da API.
 
-## Contribuição
 
-Sinta-se à vontade para propor melhorias, corrigir *bugs* ou adicionar novas funcionalidades. Abra uma *issue* ou envie um *pull request*.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
